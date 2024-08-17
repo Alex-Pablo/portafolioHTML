@@ -32,3 +32,12 @@
     font-size: 0.8rem;
     color: var(--txt-fourth-color);
 }
+
+.wrapper_img{
+    display: flex;
+    justify-content: center;
+}
+
+.imgHorizontal{
+    height: 230px !important;
+}
