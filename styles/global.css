@@ -210,16 +210,49 @@ main{
 
 /* responsive */
 
-@media (max-width: 1200px) {
+@media (min-width: 901px) {
     .layout {
         padding: 20px 50px; 
+        grid-template-columns: 300px 1fr; 
     }
 }
 
-@media (max-width: 868px) {
+@media (max-width: 900px) {
     .layout {
-        padding: 20px 10px; 
-        grid-template-columns:280px 1fr;
+        padding: 15px 20px; 
+        grid-template-columns: 280px 1fr;
+    }
+}
+@media (max-width: 600px) {
+    .layout {
+        padding: 2px; 
+        grid-template-columns: 1fr; 
+        height: auto;
+        padding-bottom: 60px;
+    }
+
+    .wrapper_borderPefil{
+        display: none;
+    }
+    .wrapper_titlePosition{
+        display: none;
+    }
+
+    .menuItems{
+        position: fixed;
+        bottom: 0px;
+        left: 0px;
+        display: flex;
+        width: 100%;
+    }
+
+    .items{
+        display: flex;
+        background-color: red;
+        width: 100%;
+    }
+    .namePerfil{
+        font-size: 1.6rem;
     }
 }
 

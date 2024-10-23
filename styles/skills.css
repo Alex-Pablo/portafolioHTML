@@ -88,3 +88,16 @@
 .wrapper_skill{
     padding: 0 0 0 15px;
 }
+
+
+@media (max-width: 600px) {
+    .wrapper_Skills{
+        padding: 0px;
+        border: none;
+        box-shadow: none;
+    }
+
+    .item-title{
+        font-size: 0.8rem;
+    }
+}
